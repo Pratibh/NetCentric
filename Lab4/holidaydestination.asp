@@ -1,0 +1,1 @@
+// Create the program that has the select option that lists the holiday destination. Users can select multiple destinations. Displays the selected destination on another page when user clicks the submit button. 
