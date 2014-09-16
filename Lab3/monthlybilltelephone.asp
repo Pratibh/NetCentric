@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Random Number Generator</title>
+<title>Mobile telephone Bill Checker</title>
 </head>
 <body>
 <form method="GET" >
