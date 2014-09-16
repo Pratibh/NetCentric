@@ -28,7 +28,7 @@
 			Response.Write(i & "<br />")
 		Next	
 
-	Erase arr ' delete array
+	Erase arr 
 
 
 	%>
