@@ -4,7 +4,7 @@
 </head>
 <body>
 <form method="GET" >
-Enter String <input type="text" name="text"/>
+Enter String <input type="text" name="text" />
 <input type="submit" />
 </form>
 
