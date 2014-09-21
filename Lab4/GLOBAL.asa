@@ -1,0 +1,10 @@
+<html>
+</body>
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+Sub Application_OnStart
+    Application("someVar") = "testing..."
+    'More vars...
+End Sub
+</SCRIPT>
+</body>
+</html>
