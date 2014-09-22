@@ -1,7 +1,7 @@
 <html>
 <body>
 <%
-Response.Write(Application("someVar"))
+	Response.Write "Scount Used " &  application("SCount") 
 %>
 </body>
 </html>
