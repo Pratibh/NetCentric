@@ -9,16 +9,13 @@
 Dim x
 	
 	if Request.Cookies("Username" ) <> ""  then
-		
+		Response.Redirect("LandingPage.asp")
 	else
 		Response.write("Cookie value not stored")
 		
 	end if
-	For Each x In Request.Cookies
-		Session("name")=Request.Cookies(x)
-	Next
-			
-	Response.Redirect("LandingPage.asp")
+	
+
 %>
 <form method="POST">
 Username:<input type ="text" name ="u_name"></br>
