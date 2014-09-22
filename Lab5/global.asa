@@ -1,0 +1,26 @@
+<script language=vbScript runat=server> 
+ 
+sub session_onStart() 
+ 
+    application.lock() 
+    application("SCount") = application("SCount") + 1 
+    application.unlock() 
+ 
+end sub 
+ 
+sub session_onEnd() 
+ 
+    application.lock() 
+    application("SCount") = application("SCount") - 1 
+    application.unlock() 
+ 
+end sub 
+ 
+sub application_onStart() 
+ 
+    ' don't need a lock in onStart() 
+    application("SCount") = 0 
+ 
+end sub 
+ 
+</script>
